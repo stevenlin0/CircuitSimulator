@@ -15,7 +15,6 @@ An interactive drag-and-drop tool for designing and simulating electrical circui
   - [Installation & Configuration](#installation--configuration)  
 - [Tech Stack](#tech-stack)  
 - [Project Architecture](#project-architecture)  
-- [How It Works](#how-it-works)  
 - [Usage](#usage)  
 - [Status](#status)  
 - [Credits](#credits)  
@@ -24,7 +23,7 @@ An interactive drag-and-drop tool for designing and simulating electrical circui
 
 ## Brief Description
 
-This project’s main purpose is to let users register, then drag-and-drop electrical components (batteries, resistors, switches, wires, bulbs) onto a large, zoomable canvas and simulate circuit behavior in real time :contentReference[oaicite:0]{index=0}.
+This project’s main purpose is to let users register, then drag-and-drop electrical components (batteries, resistors, switches, wires, bulbs) onto a large, zoomable canvas and simulate circuit behavior in real time.
 
 ---
 
