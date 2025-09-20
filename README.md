@@ -89,27 +89,6 @@ This project’s main purpose is to let users register, then drag-and-drop elect
 - **Simulation Engine**  
   Methods in `ProjectController` (e.g., `simulateCircuit()`) handle power propagation and update bulb visuals.
 
-## How It Works
-
-1. **User Flow**  
-   Register/Login → Create or Select Project → Build on Canvas → Save/Simulate
-   ![LoginSignUp](https://github.com/user-attachments/assets/bfdb0592-6552-44ea-b662-28eeb49357ee)
-
-3. **Load Projects**  
-   `setProjectName(...)` clears the canvas, loads components via `ConnDbOps.loadComponentsForProject()`, and renders them
-  ![LandingPage](https://github.com/user-attachments/assets/d1921273-afae-4eb4-ae80-ecf63fb8ac5f)
-
-
-5. **Add Components**  
-   `AddComponent.performAction()` places a UI node and persists its record in the database
-
-7. **Drag & Drop**  
-   Mouse handlers on each node update on-screen position and model state
-
-9. **Simulation**  
-   `ProjectController()` helps run the simulations in the circuit
-![Simulation](https://github.com/user-attachments/assets/4a586a2e-dfe6-4084-8101-bbce4fc14a2e)
-
 ## Usage
 
 - **Add Component:** Click a toolbar icon, then click the canvas  
@@ -117,7 +96,3 @@ This project’s main purpose is to let users register, then drag-and-drop elect
 - **Zoom/Pan:** Scroll or use trackpad gestures  
 - **Save Project:** Use the **save**
 - **Load/Delete Project:** Select from the project list at launch
-
-## Status
-
-## Credits
