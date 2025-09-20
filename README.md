@@ -56,8 +56,8 @@ This project’s main purpose is to let users register, then drag-and-drop elect
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/AsimRazzaq01/ElectronicCircuitSimulator.git
-   cd ElectronicCircuitSimulator
+   git clone https://github.com/stevenlin0/CircuitSimulator.git
+   cd CircuitSimulator
 2. Configure database
   Copy src/main/resources/db.properties.example → src/main/resources/db.properties.
   Edit with your MySQL credentials and JDBC URL, e.g.:
